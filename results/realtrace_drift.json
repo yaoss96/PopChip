@@ -1,0 +1,25 @@
+{
+ "redesign_missing": [
+  "512-token windows (Phi-tiny)"
+ ],
+ "rows": [
+  [
+   "Domain shift (Phi-tiny)",
+   {
+    "redesign": 1.72934742170876,
+    "remap_ls": 0.0,
+    "remap_rank": 2.089628134564747,
+    "static": 25.623046697320984
+   }
+  ],
+  [
+   "512-token windows (Phi-tiny)",
+   {
+    "redesign": 0.0,
+    "remap_ls": 0.0,
+    "remap_rank": 2.230291275206575,
+    "static": 19.988593348428086
+   }
+  ]
+ ]
+}

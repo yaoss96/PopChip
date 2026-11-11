@@ -1,0 +1,114 @@
+{
+ "a_max": 1695.0,
+ "bw": 0.25,
+ "cap": "A1695",
+ "enum": {
+  "0": {
+   "T": 174028.9999651889,
+   "area": 1300.0,
+   "bound": 121606.99999999913,
+   "endpoint_cycles": {
+    "combine": 15076.0,
+    "dispatch": 15076.0
+   },
+   "feasible": true,
+   "gap": 0.30122565765289566,
+   "l_experts": [],
+   "link_cycles": {
+    "combine": 5759.999999998748,
+    "dispatch": 9085.784615380024
+   },
+   "nL": 0,
+   "nS": 11,
+   "nodes": 516.0,
+   "power": 1055.0,
+   "status": 9,
+   "ttff": 0.8762857913970947,
+   "wall": 45.137632608413696
+  },
+  "1": {
+   "T": 167490.99996649998,
+   "area": 1260.0,
+   "bound": 90399.36530266237,
+   "endpoint_cycles": {
+    "combine": 15080.0,
+    "dispatch": 15080.0
+   },
+   "feasible": true,
+   "gap": 0.46027329635178477,
+   "l_experts": [
+    0
+   ],
+   "link_cycles": {
+    "combine": 6464.0,
+    "dispatch": 6630.64615384615
+   },
+   "nL": 1,
+   "nS": 7,
+   "nodes": 21.0,
+   "power": 995.0,
+   "status": 9,
+   "ttff": 1.3203344345092773,
+   "wall": 45.12825393676758
+  },
+  "2": {
+   "T": 170681.0,
+   "area": 1550.0,
+   "bound": 88925.6156929805,
+   "endpoint_cycles": {
+    "combine": 15081.0,
+    "dispatch": 15081.0
+   },
+   "feasible": true,
+   "gap": 0.4789952268091908,
+   "l_experts": [
+    0,
+    1
+   ],
+   "link_cycles": {
+    "combine": 4992.0,
+    "dispatch": 8064.0
+   },
+   "nL": 2,
+   "nS": 6,
+   "nodes": 4.0,
+   "power": 1205.0,
+   "status": 9,
+   "ttff": 1.0073974132537842,
+   "wall": 45.142666816711426
+  }
+ },
+ "enum_best_T": 167490.99996649998,
+ "enum_best_nL": 1,
+ "greedy_T": 170681.0,
+ "greedy_bound": 88925.6156929805,
+ "hop": 2080.0,
+ "joint": {
+  "T": 170681.0,
+  "area": 1550.0,
+  "bound": 86512.99470218524,
+  "endpoint_cycles": {
+   "combine": 15081.0,
+   "dispatch": 15081.0
+  },
+  "feasible": true,
+  "gap": 0.4931304907858213,
+  "l_experts": [
+   0,
+   1
+  ],
+  "link_cycles": {
+   "combine": 4992.0,
+   "dispatch": 8064.0
+  },
+  "nL": 2,
+  "nS": 6,
+  "nodes": 101.0,
+  "power": 1205.0,
+  "status": 9,
+  "ttff": 0.7554278373718262,
+  "wall": 45.09749960899353
+ },
+ "max_nL": 2,
+ "p_max": 2500.0
+}

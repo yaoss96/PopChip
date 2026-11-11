@@ -1,0 +1,61 @@
+{
+ "T_seed": 3113664.094,
+ "case": "e128_m16",
+ "seed": "results/poprank/e128_m16/poprank_greedy_raw.json",
+ "time_limit": 300.0,
+ "warm": {
+  "T": 3113664.0939999996,
+  "T_fast": 3113664.094,
+  "area": 22870.0,
+  "bound": null,
+  "endpoint_cycles": {
+   "combine": 139431.0,
+   "dispatch": 139431.0
+  },
+  "feasible": true,
+  "gap": null,
+  "l_experts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20,
+   21,
+   22,
+   23,
+   24,
+   25,
+   26,
+   27,
+   28,
+   29
+  ],
+  "link_cycles": {
+   "combine": 9712.0,
+   "dispatch": 8000.0
+  },
+  "nL": 30,
+  "nS": 98,
+  "nodes": 0.0,
+  "power": 17885.0,
+  "status": 9,
+  "ttff": 168.12171626091003,
+  "wall": 315.96894001960754
+ }
+}

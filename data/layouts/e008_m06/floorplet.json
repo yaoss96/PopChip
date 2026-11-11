@@ -1,0 +1,273 @@
+{
+ "budgets": {
+  "a_max": 1440.0,
+  "a_max_layer": null,
+  "nmax": {
+   "CPU": 1
+  },
+  "nmin": {
+   "CPU": 1
+  },
+  "p_max": 1120.0
+ },
+ "grid": {
+  "L": 1,
+  "X": 6,
+  "Y": 6
+ },
+ "metadata": {
+  "F_FP": 17582540.0,
+  "bound_F_FP": 7602380.625,
+  "certified_exact": false,
+  "mip_gap": 0.5676176064125364,
+  "objective": "F_FP traffic-weighted Manhattan distance",
+  "optimizer": "exact MILP encoding",
+  "status": 9,
+  "time_limit_s": 45.0,
+  "time_to_first_feasible_s": 0.0009999275207519531,
+  "trace": [
+   {
+    "bound_F_FP": -1.1023474e+107,
+    "incumbent_F_FP": 26771832.000000004,
+    "t_s": 0.0009999275207519531
+   },
+   {
+    "bound_F_FP": -1.1023474e+107,
+    "incumbent_F_FP": 26771832.000000004,
+    "t_s": 0.0009999275207519531
+   },
+   {
+    "bound_F_FP": 0.0,
+    "incumbent_F_FP": 24674680.0,
+    "t_s": 0.09999990463256836
+   },
+   {
+    "bound_F_FP": 0.0,
+    "incumbent_F_FP": 23410264.0,
+    "t_s": 0.15899991989135742
+   },
+   {
+    "bound_F_FP": 8.949276867455963e-10,
+    "incumbent_F_FP": 21958440.0,
+    "t_s": 0.2330000400543213
+   },
+   {
+    "bound_F_FP": 8.949276867455963e-10,
+    "incumbent_F_FP": 21954343.999999996,
+    "t_s": 0.3039999008178711
+   },
+   {
+    "bound_F_FP": 8.949276867455963e-10,
+    "incumbent_F_FP": 21350304.0,
+    "t_s": 0.33299994468688965
+   },
+   {
+    "bound_F_FP": 1.6362932403390544e-09,
+    "incumbent_F_FP": 20456602.0,
+    "t_s": 0.3970000743865967
+   },
+   {
+    "bound_F_FP": 1.6362932403390544e-09,
+    "incumbent_F_FP": 19324026.0,
+    "t_s": 0.40199995040893555
+   },
+   {
+    "bound_F_FP": 1.6362932403390544e-09,
+    "incumbent_F_FP": 17872202.0,
+    "t_s": 0.4049999713897705
+   },
+   {
+    "bound_F_FP": 1.6362932403390544e-09,
+    "incumbent_F_FP": 17582540.0,
+    "t_s": 0.7619998455047607
+   },
+   {
+    "bound_F_FP": 520492.6666666673,
+    "incumbent_F_FP": 17582539.755893573,
+    "t_s": 2.2330000400543213
+   },
+   {
+    "bound_F_FP": 7602380.625,
+    "incumbent_F_FP": 17582539.755893573,
+    "t_s": 45.00099992752075
+   }
+  ],
+  "wall_s": 45.0011716
+ },
+ "method": "floorplet-inspired-exact-MILP",
+ "proxy_not_original_tool": true,
+ "search_space": "exact BOM and immutable complete task bundles",
+ "sites": [
+  {
+   "i": 2,
+   "j": 2,
+   "l": 0,
+   "tasks": [
+    "e(6)"
+   ],
+   "type": "GPU-S"
+  },
+  {
+   "i": 3,
+   "j": 0,
+   "l": 0,
+   "tasks": [
+    "e(5)"
+   ],
+   "type": "GPU-S"
+  },
+  {
+   "i": 3,
+   "j": 1,
+   "l": 0,
+   "tasks": [
+    "e(3)"
+   ],
+   "type": "GPU-S"
+  },
+  {
+   "i": 3,
+   "j": 2,
+   "l": 0,
+   "tasks": [
+    "t_gate"
+   ],
+   "type": "CPU"
+  },
+  {
+   "i": 3,
+   "j": 3,
+   "l": 0,
+   "tasks": [
+    "t_norm"
+   ],
+   "type": "GPU-S"
+  },
+  {
+   "i": 4,
+   "j": 0,
+   "l": 0,
+   "tasks": [
+    "e(2)"
+   ],
+   "type": "GPU-S"
+  },
+  {
+   "i": 4,
+   "j": 1,
+   "l": 0,
+   "tasks": [
+    "e(4)",
+    "t_dispatch"
+   ],
+   "type": "GPU-S"
+  },
+  {
+   "i": 4,
+   "j": 2,
+   "l": 0,
+   "tasks": [
+    "e(0)",
+    "t_attn",
+    "t_combine"
+   ],
+   "type": "GPU-L"
+  },
+  {
+   "i": 5,
+   "j": 0,
+   "l": 0,
+   "tasks": [
+    "e(7)"
+   ],
+   "type": "GPU-S"
+  },
+  {
+   "i": 5,
+   "j": 1,
+   "l": 0,
+   "tasks": [
+    "e(1)"
+   ],
+   "type": "GPU-S"
+  }
+ ],
+ "strict_evaluate": {
+  "byte_hop": 17582540.0,
+  "energy_comm_J": 0.0001645725744,
+  "energy_comp_J": 5.22287158698393e-06,
+  "energy_total_J": 0.00016979544598698395,
+  "feasible": true,
+  "makespan_cycles": 59687616.159243695,
+  "peak_power_W": 1085.0,
+  "reasons": [],
+  "total_area_mm2": 1370.0
+ },
+ "task_site": {
+  "e(0)": [
+   0,
+   4,
+   2
+  ],
+  "e(1)": [
+   0,
+   5,
+   1
+  ],
+  "e(2)": [
+   0,
+   4,
+   0
+  ],
+  "e(3)": [
+   0,
+   3,
+   1
+  ],
+  "e(4)": [
+   0,
+   4,
+   1
+  ],
+  "e(5)": [
+   0,
+   3,
+   0
+  ],
+  "e(6)": [
+   0,
+   2,
+   2
+  ],
+  "e(7)": [
+   0,
+   5,
+   0
+  ],
+  "t_attn": [
+   0,
+   4,
+   2
+  ],
+  "t_combine": [
+   0,
+   4,
+   2
+  ],
+  "t_dispatch": [
+   0,
+   4,
+   1
+  ],
+  "t_gate": [
+   0,
+   3,
+   2
+  ],
+  "t_norm": [
+   0,
+   3,
+   3
+  ]
+ }
+}

@@ -1,0 +1,82 @@
+{
+ "T": 1074076.278,
+ "area": 5640.0,
+ "bom": {
+  "CPU": 1,
+  "GPU-L": 7,
+  "GPU-S": 25
+ },
+ "bound": 1020883.0,
+ "endpoint_cycles": {
+  "combine": 35865.0,
+  "dispatch": 35865.0
+ },
+ "expert_type": {
+  "e(0)": "GPU-L",
+  "e(1)": "GPU-L",
+  "e(10)": "GPU-S",
+  "e(11)": "GPU-S",
+  "e(12)": "GPU-S",
+  "e(13)": "GPU-S",
+  "e(14)": "GPU-S",
+  "e(15)": "GPU-S",
+  "e(16)": "GPU-S",
+  "e(17)": "GPU-S",
+  "e(18)": "GPU-S",
+  "e(19)": "GPU-S",
+  "e(2)": "GPU-L",
+  "e(20)": "GPU-S",
+  "e(21)": "GPU-S",
+  "e(22)": "GPU-S",
+  "e(23)": "GPU-S",
+  "e(24)": "GPU-S",
+  "e(25)": "GPU-S",
+  "e(26)": "GPU-S",
+  "e(27)": "GPU-S",
+  "e(28)": "GPU-S",
+  "e(29)": "GPU-S",
+  "e(3)": "GPU-L",
+  "e(30)": "GPU-S",
+  "e(31)": "GPU-S",
+  "e(4)": "GPU-L",
+  "e(5)": "GPU-L",
+  "e(6)": "GPU-L",
+  "e(7)": "GPU-S",
+  "e(8)": "GPU-S",
+  "e(9)": "GPU-S"
+ },
+ "experts": 32,
+ "feasible": true,
+ "gap": 0.04952467444774899,
+ "l_experts": [
+  0,
+  1,
+  2,
+  3,
+  4,
+  5,
+  6
+ ],
+ "library": [
+  "CPU",
+  "GPU-L",
+  "GPU-S"
+ ],
+ "link_cycles": {
+  "combine": 3328.0,
+  "dispatch": 4016.0
+ },
+ "mesh": 12,
+ "nL": 7,
+ "nS": 25,
+ "nodes": 1.0,
+ "num_bin_vars": 15789,
+ "num_constrs": 38305,
+ "num_genconstrs": 0,
+ "num_vars": 55008,
+ "power": 4415.0,
+ "status": 9,
+ "ttff": 16.33279585838318,
+ "types": 3,
+ "wall": 47.34407329559326
+}

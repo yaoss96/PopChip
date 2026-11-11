@@ -1,0 +1,83 @@
+{
+ "analytic": {
+  "blind_med": 288945.348,
+  "fp": 273068.353,
+  "popchip": 273484.353,
+  "poprank": 273484.353,
+  "tap": 276812.353
+ },
+ "analytic_blind_slower_pct": 5.653338054042156,
+ "blind_slower_pct": 5.230395424344714,
+ "bom": [
+  3,
+  13
+ ],
+ "domain_overheads": {
+  "code": {
+   "redesign": 1.2136814859587952,
+   "remap_ls": 0.0,
+   "remap_rank": 1.6991540803423133,
+   "static": 25.623046697320984
+  },
+  "math": {
+   "redesign": 1.72934742170876,
+   "remap_ls": 0.0,
+   "remap_rank": 2.089628134564747,
+   "static": 16.13244363812698
+  }
+ },
+ "floorplet_slower_pct": -0.299238107525035,
+ "l_experts": [
+  0,
+  1,
+  2
+ ],
+ "layer": "26",
+ "layer_stats": {
+  "max_over_mean": 2.5162760416666665,
+  "min": 0.0025634765625,
+  "top1": 0.15726725260416666,
+  "top3": 0.3590087890625,
+  "window_top1_changes": 5,
+  "window_tv_mean": 0.16291469997829866,
+  "zipf_alpha": 1.0517707893408903
+ },
+ "measured": {
+  "blind1": 282610,
+  "blind2": 293637,
+  "blind3": 294043,
+  "floorplet": 278207,
+  "popchip": 279042,
+  "poprank-greedy": 279043,
+  "tap": 281855
+ },
+ "poprank-greedy_slower_pct": 0.0003583689910380272,
+ "red_vs_blind_pct": 4.970422664718688,
+ "tap_slower_pct": 1.0080919718178594,
+ "top3_mass": 0.3590087890625,
+ "tv_code_layer": 0.5228678385416665,
+ "tv_code_median": 0.5187174479166665,
+ "tv_math_layer": 0.42777506510416663,
+ "tv_math_median": 0.36016845703125,
+ "wiki_alpha_median": 0.8950972674883655,
+ "wiki_alpha_range": [
+  0.2244838403448155,
+  1.583259720290445
+ ],
+ "wiki_top3_median": 0.35886637369791663,
+ "wiki_top3_range": [
+  0.23209635416666666,
+  0.5364990234375
+ ],
+ "window_median": {
+  "remap_ls": 0.0,
+  "remap_rank": 1.4654500445946517,
+  "static": 3.0067081984740285
+ },
+ "window_worst": {
+  "redesign": null,
+  "remap_ls": 0.0,
+  "remap_rank": 2.230291275206575,
+  "static": 19.988593348428086
+ }
+}

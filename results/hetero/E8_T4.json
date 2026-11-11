@@ -1,0 +1,54 @@
+{
+ "T": 101132.99999998632,
+ "area": 1440.0,
+ "bom": {
+  "CPU": 1,
+  "GPU-L": 1,
+  "GPU-S": 7,
+  "NPU": 1
+ },
+ "bound": 76668.00000000006,
+ "endpoint_cycles": {
+  "combine": 9037.0,
+  "dispatch": 9037.0
+ },
+ "expert_type": {
+  "e(0)": "GPU-L",
+  "e(1)": "NPU",
+  "e(2)": "GPU-S",
+  "e(3)": "GPU-S",
+  "e(4)": "GPU-S",
+  "e(5)": "GPU-S",
+  "e(6)": "GPU-S",
+  "e(7)": "GPU-S"
+ },
+ "experts": 8,
+ "feasible": true,
+ "gap": 0.24190916911383595,
+ "l_experts": [
+  0
+ ],
+ "library": [
+  "CPU",
+  "GPU-L",
+  "GPU-S",
+  "NPU"
+ ],
+ "link_cycles": {
+  "combine": 32580.461538447227,
+  "dispatch": 14551.230769224096
+ },
+ "mesh": 6,
+ "nL": 1,
+ "nS": 7,
+ "nodes": 26.0,
+ "num_bin_vars": 1707,
+ "num_constrs": 3711,
+ "num_genconstrs": 0,
+ "num_vars": 4054,
+ "power": 1105.0,
+ "status": 9,
+ "ttff": 1.3095464706420898,
+ "types": 4,
+ "wall": 45.12402892112732
+}

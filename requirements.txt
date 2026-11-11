@@ -1,0 +1,9 @@
+# MILP solver (needs a Gurobi license; set GRB_LICENSE_FILE if it is not found)
+gurobipy>=10.0
+
+# Optional: only experiments/realtrace (trained-model routing traces)
+# torch>=2.1
+# transformers>=4.46
+# huggingface_hub
+# pandas
+# pyarrow

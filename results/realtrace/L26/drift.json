@@ -1,0 +1,189 @@
+{
+ "cases": {
+  "code": {
+   "redesign": {
+    "T": 260189.094,
+    "area": 2720.0,
+    "bound": 237913.81908052645,
+    "endpoint_cycles": {
+     "combine": 19862.0,
+     "dispatch": 19862.0
+    },
+    "feasible": true,
+    "gap": 0.08561187010964251,
+    "l_experts": [
+     2,
+     14,
+     15
+    ],
+    "link_cycles": {
+     "combine": 2656.0,
+     "dispatch": 3648.0
+    },
+    "nL": 3,
+    "nS": 13,
+    "nodes": 1.0,
+    "power": 2135.0,
+    "status": 9,
+    "ttff": 4.052001953125,
+    "wall": 45.40576672554016
+   },
+   "remap_ls": 257069.094,
+   "remap_rank": 261437.094,
+   "static": 322938.028
+  },
+  "math": {
+   "redesign": {
+    "T": 293655.801,
+    "area": 2720.0,
+    "bound": 266491.9961004383,
+    "endpoint_cycles": {
+     "combine": 18742.0,
+     "dispatch": 18742.0
+    },
+    "feasible": true,
+    "gap": 0.09250219068398954,
+    "l_experts": [
+     2,
+     7,
+     9
+    ],
+    "link_cycles": {
+     "combine": 3104.0,
+     "dispatch": 2800.0
+    },
+    "nL": 3,
+    "nS": 13,
+    "nodes": 1.0,
+    "power": 2135.0,
+    "status": 9,
+    "ttff": 3.9134480953216553,
+    "wall": 45.56385827064514
+   },
+   "remap_ls": 288663.801,
+   "remap_rank": 294695.801,
+   "static": 335232.326
+  },
+  "wiki_w00": {
+   "remap_ls": 219921.491,
+   "remap_rank": 223089.491,
+   "static": 234048.026
+  },
+  "wiki_w01": {
+   "remap_ls": 242100.06,
+   "remap_rank": 243764.06,
+   "static": 254948.503
+  },
+  "wiki_w02": {
+   "remap_ls": 260616.537,
+   "remap_rank": 265192.537,
+   "static": 266159.29000000004
+  },
+  "wiki_w03": {
+   "remap_ls": 279646.554,
+   "remap_rank": 285054.554,
+   "static": 286581.01399999997
+  },
+  "wiki_w04": {
+   "remap_ls": 251805.675,
+   "remap_rank": 257421.675,
+   "static": 258414.336
+  },
+  "wiki_w05": {
+   "remap_ls": 268039.876,
+   "remap_rank": 271159.876,
+   "static": 274021.675
+  },
+  "wiki_w06": {
+   "remap_ls": 247368.83000000002,
+   "remap_rank": 251528.83000000002,
+   "static": 272154.377
+  },
+  "wiki_w07": {
+   "remap_ls": 266631.876,
+   "remap_rank": 269751.876,
+   "static": 270584.537
+  },
+  "wiki_w08": {
+   "remap_ls": 229803.399,
+   "remap_rank": 232091.399,
+   "static": 234264.537
+  },
+  "wiki_w09": {
+   "remap_ls": 246570.738,
+   "remap_rank": 249898.738,
+   "static": 255601.859
+  },
+  "wiki_w10": {
+   "remap_ls": 265871.50800000003,
+   "remap_rank": 268783.50800000003,
+   "static": 280073.566
+  },
+  "wiki_w11": {
+   "remap_ls": 264427.69200000004,
+   "remap_rank": 269003.69200000004,
+   "static": 275558.997
+  },
+  "wiki_w12": {
+   "remap_ls": 234188.353,
+   "remap_rank": 237724.353,
+   "static": 243732.428
+  },
+  "wiki_w13": {
+   "remap_ls": 240835.399,
+   "remap_rank": 245203.399,
+   "static": 256843.549
+  },
+  "wiki_w14": {
+   "remap_ls": 254511.58299999998,
+   "remap_rank": 258672.537,
+   "static": 257632.537
+  },
+  "wiki_w15": {
+   "remap_ls": 251278.261,
+   "remap_rank": 253774.261,
+   "static": 264966.704
+  },
+  "wiki_w16": {
+   "remap_ls": 271090.738,
+   "remap_rank": 274834.738,
+   "static": 278003.106
+  },
+  "wiki_w17": {
+   "remap_ls": 268713.784,
+   "remap_rank": 273134.261,
+   "static": 275592.537
+  },
+  "wiki_w18": {
+   "remap_ls": 221677.675,
+   "remap_rank": 225421.675,
+   "static": 265987.924
+  },
+  "wiki_w19": {
+   "remap_ls": 250136.537,
+   "remap_rank": 253864.537,
+   "static": 258415.951
+  },
+  "wiki_w20": {
+   "remap_ls": 260562.077,
+   "remap_rank": 266106.077,
+   "static": 272857.859
+  },
+  "wiki_w21": {
+   "remap_ls": 248556.353,
+   "remap_rank": 250654.261,
+   "static": 252508.353
+  },
+  "wiki_w22": {
+   "remap_ls": 236493.893,
+   "remap_rank": 239613.893,
+   "static": 239405.893
+  },
+  "wiki_w23": {
+   "remap_ls": 250134.261,
+   "remap_rank": 253462.261,
+   "static": 256896.537
+  }
+ },
+ "layer": "26"
+}

@@ -1,0 +1,33 @@
+{
+ "bw": 1.0,
+ "cap": "A1985",
+ "forced_nL": 2,
+ "hop": 1040.0,
+ "joint": {
+  "T": 122764.99998771281,
+  "area": 1770.0,
+  "bound": 89407.96632485975,
+  "endpoint_cycles": {
+   "combine": 9033.0,
+   "dispatch": 9033.0
+  },
+  "feasible": true,
+  "gap": 0.27171452503719845,
+  "l_experts": [
+   0,
+   1
+  ],
+  "link_cycles": {
+   "combine": 2500.8794869217554,
+   "dispatch": 4216.375384613778
+  },
+  "nL": 2,
+  "nS": 8,
+  "nodes": 760.0,
+  "power": 1385.0,
+  "status": 9,
+  "ttff": 1.2330305576324463,
+  "wall": 600.2719449996948
+ },
+ "time_limit": 600.0
+}

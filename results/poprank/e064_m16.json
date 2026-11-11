@@ -1,0 +1,175 @@
+{
+ "a_max": 11520.0,
+ "case": "e064_m16",
+ "experts": 64,
+ "greedy_nL": 14,
+ "mesh": 16,
+ "p_max": 8960.0,
+ "popchip": {
+  "T": 2086106.663,
+  "area": 11190.0,
+  "bound": 2009179.0,
+  "endpoint_cycles": {
+   "combine": 70646.0,
+   "dispatch": 70646.0
+  },
+  "feasible": true,
+  "gap": 0.03687618872247471,
+  "l_experts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "link_cycles": {
+   "combine": 5456.0,
+   "dispatch": 6496.0
+  },
+  "nL": 14,
+  "nS": 50,
+  "nodes": 1.0,
+  "power": 8765.0,
+  "status": 9,
+  "ttff": 17.243836164474487,
+  "wall": 240.0888524055481
+ },
+ "poprank_fpproto": {
+  "T": 2081437.2319999998,
+  "area": 11190.0,
+  "bound": 2081437.2319999998,
+  "endpoint_cycles": {
+   "combine": 70669.0,
+   "dispatch": 70669.0
+  },
+  "feasible": true,
+  "fp_meta": {
+   "F_FP": 15131740.0,
+   "gap": null,
+   "status": 9,
+   "wall_s": 47.973986800000034
+  },
+  "gap": 0.0,
+  "l_experts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "link_cycles": {
+   "combine": 5776.0,
+   "dispatch": 4368.0
+  },
+  "nL": 14,
+  "nS": 50,
+  "nodes": 1.0,
+  "power": 8765.0,
+  "status": 2,
+  "ttff": 81.4543890953064,
+  "wall": 99.82283329963684
+ },
+ "poprank_greedy": {
+  "T": 2081437.2319999998,
+  "area": 11190.0,
+  "bound": 2081437.2319999998,
+  "endpoint_cycles": {
+   "combine": 70669.0,
+   "dispatch": 70669.0
+  },
+  "feasible": true,
+  "gap": 0.0,
+  "l_experts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "link_cycles": {
+   "combine": 5776.0,
+   "dispatch": 4368.0
+  },
+  "nL": 14,
+  "nS": 50,
+  "nodes": 1.0,
+  "power": 8765.0,
+  "status": 2,
+  "ttff": 91.54349493980408,
+  "wall": 98.90293741226196
+ },
+ "poprank_mint": {
+  "T": 2081437.2319999943,
+  "area": 11190.0,
+  "bound": 2009179.0,
+  "endpoint_cycles": {
+   "combine": 70669.0,
+   "dispatch": 70669.0
+  },
+  "feasible": true,
+  "gap": 0.03471554697355123,
+  "l_experts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13
+  ],
+  "link_cycles": {
+   "combine": 6112.0,
+   "dispatch": 4944.0
+  },
+  "nL": 14,
+  "nS": 50,
+  "nodes": 1.0,
+  "power": 8765.0,
+  "status": 9,
+  "ttff": 76.34058356285095,
+  "wall": 244.97728443145752
+ },
+ "table3_analytic_T": {
+  "blind1": 2200497.2939999998,
+  "blind2": 2155510.1999999997,
+  "blind3": 2198248.2939999998,
+  "floorplet": 2127290.6629999997,
+  "popchip": 2086106.6629999997,
+  "tap": 2145277.232
+ },
+ "time_limit": 240.0
+}

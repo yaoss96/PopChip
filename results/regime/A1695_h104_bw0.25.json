@@ -1,0 +1,114 @@
+{
+ "a_max": 1695.0,
+ "bw": 0.25,
+ "cap": "A1695",
+ "enum": {
+  "0": {
+   "T": 123447.0,
+   "area": 1300.0,
+   "bound": 121606.99999999907,
+   "endpoint_cycles": {
+    "combine": 15076.0,
+    "dispatch": 15076.0
+   },
+   "feasible": true,
+   "gap": 0.014905181980938632,
+   "l_experts": [],
+   "link_cycles": {
+    "combine": 18160.0,
+    "dispatch": 10316.307692307659
+   },
+   "nL": 0,
+   "nS": 11,
+   "nodes": 407.0,
+   "power": 1055.0,
+   "status": 9,
+   "ttff": 1.0372803211212158,
+   "wall": 45.14502573013306
+  },
+  "1": {
+   "T": 112746.99998872384,
+   "area": 1260.0,
+   "bound": 110283.0,
+   "endpoint_cycles": {
+    "combine": 15080.0,
+    "dispatch": 15080.0
+   },
+   "feasible": true,
+   "gap": 0.021854239926297543,
+   "l_experts": [
+    0
+   ],
+   "link_cycles": {
+    "combine": 7169.96923388906,
+    "dispatch": 6702.769228688516
+   },
+   "nL": 1,
+   "nS": 7,
+   "nodes": 326.0,
+   "power": 995.0,
+   "status": 9,
+   "ttff": 1.1292526721954346,
+   "wall": 45.1164436340332
+  },
+  "2": {
+   "T": 107626.99998923708,
+   "area": 1660.0,
+   "bound": 89116.0890425891,
+   "endpoint_cycles": {
+    "combine": 15084.0,
+    "dispatch": 15084.0
+   },
+   "feasible": true,
+   "gap": 0.1719913306930335,
+   "l_experts": [
+    0,
+    1
+   ],
+   "link_cycles": {
+    "combine": 100943.08954430827,
+    "dispatch": 71706.197784925
+   },
+   "nL": 2,
+   "nS": 7,
+   "nodes": 191.0,
+   "power": 1295.0,
+   "status": 9,
+   "ttff": 1.0144784450531006,
+   "wall": 45.20799803733826
+  }
+ },
+ "enum_best_T": 107626.99998923708,
+ "enum_best_nL": 2,
+ "greedy_T": 107626.99998923708,
+ "greedy_bound": 89116.0890425891,
+ "hop": 104.0,
+ "joint": {
+  "T": 107626.99997847324,
+  "area": 1660.0,
+  "bound": 86596.32526432618,
+  "endpoint_cycles": {
+   "combine": 15082.0,
+   "dispatch": 15082.0
+  },
+  "feasible": true,
+  "gap": 0.1954033348356217,
+  "l_experts": [
+   0,
+   1
+  ],
+  "link_cycles": {
+   "combine": 8415.999999999993,
+   "dispatch": 6663.384615384547
+  },
+  "nL": 2,
+  "nS": 7,
+  "nodes": 271.0,
+  "power": 1295.0,
+  "status": 9,
+  "ttff": 0.8495209217071533,
+  "wall": 45.09196734428406
+ },
+ "max_nL": 2,
+ "p_max": 2500.0
+}

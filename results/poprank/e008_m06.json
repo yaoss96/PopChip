@@ -1,0 +1,123 @@
+{
+ "a_max": 1440.0,
+ "case": "e008_m06",
+ "experts": 8,
+ "greedy_nL": 1,
+ "mesh": 6,
+ "p_max": 1120.0,
+ "popchip": {
+  "T": 103645.0,
+  "area": 1370.0,
+  "bound": 82631.7319650965,
+  "endpoint_cycles": {
+   "combine": 9032.0,
+   "dispatch": 9032.0
+  },
+  "feasible": true,
+  "gap": 0.20274270861984184,
+  "l_experts": [
+   0
+  ],
+  "link_cycles": {
+   "combine": 8793.26923076923,
+   "dispatch": 6422.076923076923
+  },
+  "nL": 1,
+  "nS": 8,
+  "nodes": 576.0,
+  "power": 1085.0,
+  "status": 9,
+  "ttff": 0.2882683277130127,
+  "wall": 45.0028293132782
+ },
+ "poprank_fpproto": {
+  "T": 104277.0,
+  "area": 1260.0,
+  "bound": 104277.0,
+  "endpoint_cycles": {
+   "combine": 9030.0,
+   "dispatch": 9030.0
+  },
+  "feasible": true,
+  "fp_meta": {
+   "F_FP": 430736.0,
+   "gap": null,
+   "status": 9,
+   "wall_s": 45.011865300000004
+  },
+  "gap": 0.0,
+  "l_experts": [
+   0
+  ],
+  "link_cycles": {
+   "combine": 2128.0,
+   "dispatch": 1392.0
+  },
+  "nL": 1,
+  "nS": 7,
+  "nodes": 1.0,
+  "power": 995.0,
+  "status": 2,
+  "ttff": 0.5101633071899414,
+  "wall": 45.071072816848755
+ },
+ "poprank_greedy": {
+  "T": 105725.0,
+  "area": 1260.0,
+  "bound": 105725.0,
+  "endpoint_cycles": {
+   "combine": 9040.0,
+   "dispatch": 9040.0
+  },
+  "feasible": true,
+  "gap": 0.0,
+  "l_experts": [
+   0
+  ],
+  "link_cycles": {
+   "combine": 1728.0,
+   "dispatch": 1426.0
+  },
+  "nL": 1,
+  "nS": 7,
+  "nodes": 1.0,
+  "power": 995.0,
+  "status": 2,
+  "ttff": 0.14080429077148438,
+  "wall": 0.17146682739257812
+ },
+ "poprank_mint": {
+  "T": 103852.99997922636,
+  "area": 1260.0,
+  "bound": 101364.99999999943,
+  "endpoint_cycles": {
+   "combine": 9039.0,
+   "dispatch": 9039.0
+  },
+  "feasible": true,
+  "gap": 0.023956938939891922,
+  "l_experts": [
+   0
+  ],
+  "link_cycles": {
+   "combine": 71145.23076922457,
+   "dispatch": 54857.230769230635
+  },
+  "nL": 1,
+  "nS": 7,
+  "nodes": 607.0,
+  "power": 995.0,
+  "status": 9,
+  "ttff": 0.4924774169921875,
+  "wall": 45.134469509124756
+ },
+ "table3_analytic_T": {
+  "blind1": 116145.0,
+  "blind2": 116145.0,
+  "blind3": 117601.0,
+  "floorplet": 104893.0,
+  "popchip": 103645.0,
+  "tap": 105933.0
+ },
+ "time_limit": 45.0
+}

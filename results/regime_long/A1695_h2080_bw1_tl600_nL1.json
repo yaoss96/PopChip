@@ -1,0 +1,32 @@
+{
+ "bw": 1.0,
+ "cap": "A1695",
+ "forced_nL": 1,
+ "hop": 2080.0,
+ "joint": {
+  "T": 150284.99998496813,
+  "area": 1370.0,
+  "bound": 95733.0,
+  "endpoint_cycles": {
+   "combine": 9031.0,
+   "dispatch": 9031.0
+  },
+  "feasible": true,
+  "gap": 0.36299031833133416,
+  "l_experts": [
+   0
+  ],
+  "link_cycles": {
+   "combine": 1862.4769230769239,
+   "dispatch": 2213.5384615384583
+  },
+  "nL": 1,
+  "nS": 8,
+  "nodes": 869.0,
+  "power": 1085.0,
+  "status": 9,
+  "ttff": 1.396092176437378,
+  "wall": 600.2668845653534
+ },
+ "time_limit": 600.0
+}

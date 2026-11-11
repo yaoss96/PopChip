@@ -1,0 +1,380 @@
+[
+ {
+  "analytic": 116145.0,
+  "case": "e008_m06",
+  "measured": 122719,
+  "method": "blind1",
+  "ratio": 1.0566016617159586
+ },
+ {
+  "analytic": 116145.0,
+  "case": "e008_m06",
+  "measured": 122699,
+  "method": "blind2",
+  "ratio": 1.0564294631710363
+ },
+ {
+  "analytic": 117601.0,
+  "case": "e008_m06",
+  "measured": 124415,
+  "method": "blind3",
+  "ratio": 1.0579416841693523
+ },
+ {
+  "analytic": 101775.692,
+  "case": "e008_m06",
+  "measured": 108649,
+  "method": "drift-ls",
+  "ratio": 1.0675338861857113
+ },
+ {
+  "analytic": 102791.692,
+  "case": "e008_m06",
+  "measured": 109734,
+  "method": "drift-rank",
+  "ratio": 1.067537637185698
+ },
+ {
+  "analytic": 116457.457,
+  "case": "e008_m06",
+  "measured": 124587,
+  "method": "drift-static",
+  "ratio": 1.069806976808707
+ },
+ {
+  "analytic": 104893.0,
+  "case": "e008_m06",
+  "measured": 111744,
+  "method": "floorplet",
+  "ratio": 1.0653141773044912
+ },
+ {
+  "analytic": 103645.0,
+  "case": "e008_m06",
+  "measured": 110425,
+  "method": "popchip",
+  "ratio": 1.065415601331468
+ },
+ {
+  "analytic": 104277.0,
+  "case": "e008_m06",
+  "measured": 111051,
+  "method": "poprank-fpproto",
+  "ratio": 1.0649615926810323
+ },
+ {
+  "analytic": 105725.0,
+  "case": "e008_m06",
+  "measured": 112836,
+  "method": "poprank-greedy",
+  "ratio": 1.0672593993851975
+ },
+ {
+  "analytic": 103853.0,
+  "case": "e008_m06",
+  "measured": 110680,
+  "method": "poprank-mint",
+  "ratio": 1.0657371476991517
+ },
+ {
+  "analytic": 105933.0,
+  "case": "e008_m06",
+  "measured": 113013,
+  "method": "tap",
+  "ratio": 1.0668346974030756
+ },
+ {
+  "analytic": 336795.406,
+  "case": "e016_m08",
+  "measured": 342944,
+  "method": "blind1",
+  "ratio": 1.0182561694443064
+ },
+ {
+  "analytic": 318441.566,
+  "case": "e016_m08",
+  "measured": 323211,
+  "method": "blind2",
+  "ratio": 1.0149774228908295
+ },
+ {
+  "analytic": 337419.406,
+  "case": "e016_m08",
+  "measured": 343584,
+  "method": "blind3",
+  "ratio": 1.0182698264841352
+ },
+ {
+  "analytic": 304908.939,
+  "case": "e016_m08",
+  "measured": 311382,
+  "method": "drift-rank",
+  "ratio": 1.0212294891098617
+ },
+ {
+  "analytic": 331587.406,
+  "case": "e016_m08",
+  "measured": 339051,
+  "method": "drift-static",
+  "ratio": 1.0225086775460948
+ },
+ {
+  "analytic": 303868.939,
+  "case": "e016_m08",
+  "measured": 309398,
+  "method": "floorplet",
+  "ratio": 1.0181955451524447
+ },
+ {
+  "analytic": 300956.939,
+  "case": "e016_m08",
+  "measured": 306492,
+  "method": "popchip",
+  "ratio": 1.0183915380665138
+ },
+ {
+  "analytic": 302620.939,
+  "case": "e016_m08",
+  "measured": 308137,
+  "method": "poprank-fpproto",
+  "ratio": 1.0182276250223385
+ },
+ {
+  "analytic": 303868.939,
+  "case": "e016_m08",
+  "measured": 309403,
+  "method": "poprank-greedy",
+  "ratio": 1.0182119996147418
+ },
+ {
+  "analytic": 304700.939,
+  "case": "e016_m08",
+  "measured": 310237,
+  "method": "tap",
+  "ratio": 1.0181688347209195
+ },
+ {
+  "analytic": 1134504.183,
+  "case": "e032_m12",
+  "measured": 1139494,
+  "method": "blind1",
+  "ratio": 1.0043982358767558
+ },
+ {
+  "analytic": 1135712.183,
+  "case": "e032_m12",
+  "measured": 1140937,
+  "method": "blind2",
+  "ratio": 1.0046004763162781
+ },
+ {
+  "analytic": 1135712.183,
+  "case": "e032_m12",
+  "measured": 1140739,
+  "method": "blind3",
+  "ratio": 1.0044261363708555
+ },
+ {
+  "analytic": 1073868.278,
+  "case": "e032_m12",
+  "measured": 1077591,
+  "method": "floorplet",
+  "ratio": 1.0034666467724824
+ },
+ {
+  "analytic": 1073244.278,
+  "case": "e032_m12",
+  "measured": 1076973,
+  "method": "popchip",
+  "ratio": 1.0034742528578382
+ },
+ {
+  "analytic": 1081564.278,
+  "case": "e032_m12",
+  "measured": 1085299,
+  "method": "poprank-greedy",
+  "ratio": 1.0034530744736745
+ },
+ {
+  "analytic": 1081980.278,
+  "case": "e032_m12",
+  "measured": 1085736,
+  "method": "tap",
+  "ratio": 1.0034711556914349
+ },
+ {
+  "analytic": 2194049.2939999998,
+  "case": "e064_m12",
+  "measured": 2206099,
+  "method": "blind1",
+  "ratio": 1.0054919942012936
+ },
+ {
+  "analytic": 2197432.2939999998,
+  "case": "e064_m12",
+  "measured": 2209651,
+  "method": "blind2",
+  "ratio": 1.0055604470878865
+ },
+ {
+  "analytic": 2204088.2939999998,
+  "case": "e064_m12",
+  "measured": 2216336,
+  "method": "blind3",
+  "ratio": 1.0055568127798424
+ },
+ {
+  "analytic": 2079757.232,
+  "case": "e064_m12",
+  "measured": 2082205,
+  "method": "floorplet",
+  "ratio": 1.0011769489065059
+ },
+ {
+  "analytic": 2086413.232,
+  "case": "e064_m12",
+  "measured": 2088949,
+  "method": "popchip",
+  "ratio": 1.0012153718933086
+ },
+ {
+  "analytic": 2100141.232,
+  "case": "e064_m12",
+  "measured": 2102613,
+  "method": "tap",
+  "ratio": 1.0011769532269248
+ },
+ {
+  "analytic": 2200497.2939999998,
+  "case": "e064_m16",
+  "measured": 2212586,
+  "method": "blind1",
+  "ratio": 1.005493624569756
+ },
+ {
+  "analytic": 2155510.2,
+  "case": "e064_m16",
+  "measured": 2159764,
+  "method": "blind2",
+  "ratio": 1.0019734538950453
+ },
+ {
+  "analytic": 2198248.2939999998,
+  "case": "e064_m16",
+  "measured": 2210477,
+  "method": "blind3",
+  "ratio": 1.0055629321006994
+ },
+ {
+  "analytic": 2127290.6629999997,
+  "case": "e064_m16",
+  "measured": 2129913,
+  "method": "floorplet",
+  "ratio": 1.0012327121279714
+ },
+ {
+  "analytic": 2086106.663,
+  "case": "e064_m16",
+  "measured": 2088649,
+  "method": "popchip",
+  "ratio": 1.0012186994294645
+ },
+ {
+  "analytic": 2145277.232,
+  "case": "e064_m16",
+  "measured": 2147805,
+  "method": "tap",
+  "ratio": 1.0011782943305856
+ },
+ {
+  "analytic": 3292281.9979999997,
+  "case": "e128_m16",
+  "measured": 3290128,
+  "method": "blind1",
+  "ratio": 0.9993457431649816
+ },
+ {
+  "analytic": 3314201.9979999997,
+  "case": "e128_m16",
+  "measured": 3312121,
+  "method": "blind2",
+  "ratio": 0.9993720968120665
+ },
+ {
+  "analytic": 3294826.9979999997,
+  "case": "e128_m16",
+  "measured": 3292538,
+  "method": "blind3",
+  "ratio": 0.9993052752082616
+ },
+ {
+  "analytic": 3110360.094,
+  "case": "e128_m16",
+  "measured": 3112483,
+  "method": "floorplet",
+  "ratio": 1.000682527403851
+ },
+ {
+  "analytic": 3121638.4790000003,
+  "case": "e128_m16",
+  "measured": 3124247,
+  "method": "popchip",
+  "ratio": 1.0008356255913513
+ },
+ {
+  "analytic": 3139480.094,
+  "case": "e128_m16",
+  "measured": 3141563,
+  "method": "tap",
+  "ratio": 1.0006634557116576
+ },
+ {
+  "analytic": 277134.629,
+  "case": "rt_L26",
+  "measured": 282610,
+  "method": "blind1",
+  "ratio": 1.019757079870376
+ },
+ {
+  "analytic": 288945.348,
+  "case": "rt_L26",
+  "measured": 293637,
+  "method": "blind2",
+  "ratio": 1.0162371605304406
+ },
+ {
+  "analytic": 289361.348,
+  "case": "rt_L26",
+  "measured": 294043,
+  "method": "blind3",
+  "ratio": 1.0161792583299687
+ },
+ {
+  "analytic": 273068.353,
+  "case": "rt_L26",
+  "measured": 278207,
+  "method": "floorplet",
+  "ratio": 1.0188181711412014
+ },
+ {
+  "analytic": 273484.353,
+  "case": "rt_L26",
+  "measured": 279042,
+  "method": "popchip",
+  "ratio": 1.0203216269561133
+ },
+ {
+  "analytic": 273484.353,
+  "case": "rt_L26",
+  "measured": 279043,
+  "method": "poprank-greedy",
+  "ratio": 1.0203252834724332
+ },
+ {
+  "analytic": 276812.353,
+  "case": "rt_L26",
+  "measured": 281855,
+  "method": "tap",
+  "ratio": 1.0182168423675804
+ }
+]

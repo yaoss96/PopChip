@@ -1,0 +1,509 @@
+{
+  "budgets": {
+    "a_max": 2880.0,
+    "a_max_layer": null,
+    "nmax": {
+      "CPU": 1
+    },
+    "nmin": {
+      "CPU": 1
+    },
+    "p_max": 2240.0
+  },
+  "grid": {
+    "L": 1,
+    "X": 8,
+    "Y": 8
+  },
+  "metadata": {
+    "alpha": 0.7,
+    "evaluations": 691,
+    "normalization": {
+      "method": "deterministic valid bounds from fixed BOM and grid",
+      "thermal": [
+        90.0,
+        2135.0
+      ],
+      "wirelength": [
+        0.0,
+        490.0
+      ]
+    },
+    "normalized_thermal": 0.06155652786787087,
+    "normalized_wirelength": 0.22040816326530613,
+    "objective": "0.7 normalized thermal coupling + 0.3 normalized wirelength",
+    "optimizer": "wall-clock simulated annealing",
+    "packing_strategy": "random-backtracking",
+    "seed": 29,
+    "selection_cost": 0.10921201848710146,
+    "thermal_coupling_surrogate": 215.88309948979594,
+    "time_to_first_feasible_s": 0.023850799999998173,
+    "trace": [
+      {
+        "best_cost": 0.14477939414875204,
+        "evaluations": 1,
+        "t_s": 0.023850799999998173,
+        "thermal": 223.20464112757136,
+        "wirelength": 162.0
+      },
+      {
+        "best_cost": 0.14307949006323845,
+        "evaluations": 2,
+        "t_s": 0.042446200000000545,
+        "thermal": 221.81575223868248,
+        "wirelength": 160.0
+      },
+      {
+        "best_cost": 0.1339147952715452,
+        "evaluations": 3,
+        "t_s": 0.06123730000000194,
+        "thermal": 221.8711970899471,
+        "wirelength": 145.0
+      },
+      {
+        "best_cost": 0.13315962808649676,
+        "evaluations": 5,
+        "t_s": 0.10673020000000122,
+        "thermal": 225.03091931216932,
+        "wirelength": 142.0
+      },
+      {
+        "best_cost": 0.1325768454760334,
+        "evaluations": 135,
+        "t_s": 3.0004060999999993,
+        "thermal": 241.21465891912322,
+        "wirelength": 132.0
+      },
+      {
+        "best_cost": 0.13012786588419667,
+        "evaluations": 136,
+        "t_s": 3.0297808999999987,
+        "thermal": 241.21465891912322,
+        "wirelength": 128.0
+      },
+      {
+        "best_cost": 0.12701221246444788,
+        "evaluations": 141,
+        "t_s": 3.1787953999999985,
+        "thermal": 232.11249999999998,
+        "wirelength": 128.0
+      },
+      {
+        "best_cost": 0.12348609725063621,
+        "evaluations": 142,
+        "t_s": 3.2096686000000005,
+        "thermal": 232.54298469387757,
+        "wirelength": 122.0
+      },
+      {
+        "best_cost": 0.12078453348875548,
+        "evaluations": 148,
+        "t_s": 3.361628600000003,
+        "thermal": 213.91878070672715,
+        "wirelength": 128.0
+      },
+      {
+        "best_cost": 0.12076806481897295,
+        "evaluations": 192,
+        "t_s": 4.439749899999995,
+        "thermal": 224.60244708994708,
+        "wirelength": 122.0
+      },
+      {
+        "best_cost": 0.12023055860486004,
+        "evaluations": 199,
+        "t_s": 4.617355500000002,
+        "thermal": 237.3411989795918,
+        "wirelength": 114.0
+      },
+      {
+        "best_cost": 0.11690325457811486,
+        "evaluations": 200,
+        "t_s": 4.650051900000008,
+        "thermal": 220.4661989795918,
+        "wirelength": 118.0
+      },
+      {
+        "best_cost": 0.11609846689286962,
+        "evaluations": 202,
+        "t_s": 4.699979299999995,
+        "thermal": 219.9036989795918,
+        "wirelength": 117.0
+      },
+      {
+        "best_cost": 0.11584019634748766,
+        "evaluations": 206,
+        "t_s": 4.799975000000003,
+        "thermal": 226.30369897959184,
+        "wirelength": 113.0
+      },
+      {
+        "best_cost": 0.11577575056781744,
+        "evaluations": 274,
+        "t_s": 6.6178832000000085,
+        "thermal": 217.17227654950867,
+        "wirelength": 118.0
+      },
+      {
+        "best_cost": 0.11492778888925852,
+        "evaluations": 282,
+        "t_s": 6.758026799999996,
+        "thermal": 218.2722765495087,
+        "wirelength": 116.0
+      },
+      {
+        "best_cost": 0.11466951834387654,
+        "evaluations": 292,
+        "t_s": 6.914304400000006,
+        "thermal": 224.6722765495087,
+        "wirelength": 112.0
+      },
+      {
+        "best_cost": 0.114138182582188,
+        "evaluations": 358,
+        "t_s": 7.972385099999997,
+        "thermal": 226.69727654950867,
+        "wirelength": 110.0
+      },
+      {
+        "best_cost": 0.11386511736588142,
+        "evaluations": 376,
+        "t_s": 8.331279500000008,
+        "thermal": 222.32227654950867,
+        "wirelength": 112.0
+      },
+      {
+        "best_cost": 0.11378373311124043,
+        "evaluations": 410,
+        "t_s": 9.124377300000006,
+        "thermal": 225.66177773795468,
+        "wirelength": 110.0
+      },
+      {
+        "best_cost": 0.11333378160419288,
+        "evaluations": 465,
+        "t_s": 10.394316200000006,
+        "thermal": 224.34727654950868,
+        "wirelength": 110.0
+      },
+      {
+        "best_cost": 0.11149612876935616,
+        "evaluations": 469,
+        "t_s": 10.504320100000001,
+        "thermal": 215.40144557823132,
+        "wirelength": 112.0
+      },
+      {
+        "best_cost": 0.11097534949187499,
+        "evaluations": 499,
+        "t_s": 11.388072600000001,
+        "thermal": 221.0345450680272,
+        "wirelength": 108.0
+      },
+      {
+        "best_cost": 0.10988153262224287,
+        "evaluations": 539,
+        "t_s": 12.265998499999995,
+        "thermal": 214.26177773795467,
+        "wirelength": 110.0
+      },
+      {
+        "best_cost": 0.10943158111519534,
+        "evaluations": 677,
+        "t_s": 14.863047800000004,
+        "thermal": 212.94727654950867,
+        "wirelength": 110.0
+      },
+      {
+        "best_cost": 0.10921201848710146,
+        "evaluations": 688,
+        "t_s": 14.973278000000008,
+        "thermal": 215.88309948979594,
+        "wirelength": 108.0
+      }
+    ],
+    "unweighted_net_wirelength": 108.0,
+    "wall_budget_s": 15.0,
+    "wall_s": 15.004260099999996
+  },
+  "method": "tap-spread-SA",
+  "proxy_not_original_tool": true,
+  "search_space": "exact BOM and immutable complete task bundles",
+  "sites": [
+    {
+      "i": 0,
+      "j": 1,
+      "l": 0,
+      "tasks": [
+        "e(11)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 0,
+      "j": 2,
+      "l": 0,
+      "tasks": [
+        "e(4)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 0,
+      "j": 3,
+      "l": 0,
+      "tasks": [
+        "e(15)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 1,
+      "j": 0,
+      "l": 0,
+      "tasks": [
+        "e(3)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 1,
+      "j": 1,
+      "l": 0,
+      "tasks": [
+        "t_gate",
+        "t_norm"
+      ],
+      "type": "CPU"
+    },
+    {
+      "i": 1,
+      "j": 4,
+      "l": 0,
+      "tasks": [
+        "e(8)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 1,
+      "j": 5,
+      "l": 0,
+      "tasks": [
+        "e(14)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 2,
+      "j": 0,
+      "l": 0,
+      "tasks": [
+        "e(10)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 2,
+      "j": 2,
+      "l": 0,
+      "tasks": [
+        "e(0)",
+        "t_attn",
+        "t_combine",
+        "t_dispatch"
+      ],
+      "type": "GPU-L"
+    },
+    {
+      "i": 2,
+      "j": 5,
+      "l": 0,
+      "tasks": [
+        "e(9)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 3,
+      "j": 0,
+      "l": 0,
+      "tasks": [
+        "e(13)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 3,
+      "j": 5,
+      "l": 0,
+      "tasks": [
+        "e(12)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 4,
+      "j": 0,
+      "l": 0,
+      "tasks": [
+        "e(6)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 4,
+      "j": 6,
+      "l": 0,
+      "tasks": [
+        "e(1)"
+      ],
+      "type": "GPU-L"
+    },
+    {
+      "i": 5,
+      "j": 1,
+      "l": 0,
+      "tasks": [
+        "e(5)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 5,
+      "j": 2,
+      "l": 0,
+      "tasks": [
+        "e(7)"
+      ],
+      "type": "GPU-S"
+    },
+    {
+      "i": 5,
+      "j": 3,
+      "l": 0,
+      "tasks": [
+        "e(2)"
+      ],
+      "type": "GPU-L"
+    }
+  ],
+  "strict_evaluate": {
+    "byte_hop": 33571476.0,
+    "energy_comm_J": 0.0003142290153600001,
+    "energy_comp_J": 5.113817645055998e-06,
+    "energy_total_J": 0.0003193428330050561,
+    "feasible": true,
+    "makespan_cycles": 38494035.05081333,
+    "peak_power_W": 2135.0,
+    "reasons": [],
+    "total_area_mm2": 2720.0
+  },
+  "task_site": {
+    "e(0)": [
+      0,
+      2,
+      2
+    ],
+    "e(1)": [
+      0,
+      4,
+      6
+    ],
+    "e(10)": [
+      0,
+      2,
+      0
+    ],
+    "e(11)": [
+      0,
+      0,
+      1
+    ],
+    "e(12)": [
+      0,
+      3,
+      5
+    ],
+    "e(13)": [
+      0,
+      3,
+      0
+    ],
+    "e(14)": [
+      0,
+      1,
+      5
+    ],
+    "e(15)": [
+      0,
+      0,
+      3
+    ],
+    "e(2)": [
+      0,
+      5,
+      3
+    ],
+    "e(3)": [
+      0,
+      1,
+      0
+    ],
+    "e(4)": [
+      0,
+      0,
+      2
+    ],
+    "e(5)": [
+      0,
+      5,
+      1
+    ],
+    "e(6)": [
+      0,
+      4,
+      0
+    ],
+    "e(7)": [
+      0,
+      5,
+      2
+    ],
+    "e(8)": [
+      0,
+      1,
+      4
+    ],
+    "e(9)": [
+      0,
+      2,
+      5
+    ],
+    "t_attn": [
+      0,
+      2,
+      2
+    ],
+    "t_combine": [
+      0,
+      2,
+      2
+    ],
+    "t_dispatch": [
+      0,
+      2,
+      2
+    ],
+    "t_gate": [
+      0,
+      1,
+      1
+    ],
+    "t_norm": [
+      0,
+      1,
+      1
+    ]
+  }
+}

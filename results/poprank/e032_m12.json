@@ -1,0 +1,147 @@
+{
+ "a_max": 5760.0,
+ "case": "e032_m12",
+ "experts": 32,
+ "greedy_nL": 7,
+ "mesh": 12,
+ "p_max": 4480.0,
+ "popchip": {
+  "T": 1073244.278,
+  "area": 5640.0,
+  "bound": 1020883.0,
+  "endpoint_cycles": {
+   "combine": 35865.0,
+   "dispatch": 35865.0
+  },
+  "feasible": true,
+  "gap": 0.04878784734597014,
+  "l_experts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "link_cycles": {
+   "combine": 3328.0,
+   "dispatch": 4016.0
+  },
+  "nL": 7,
+  "nS": 25,
+  "nodes": 1.0,
+  "power": 4415.0,
+  "status": 9,
+  "ttff": 3.4380862712860107,
+  "wall": 45.01631188392639
+ },
+ "poprank_fpproto": {
+  "T": 1081564.278,
+  "area": 5640.0,
+  "bound": 1081564.278,
+  "endpoint_cycles": {
+   "combine": 35891.0,
+   "dispatch": 35891.0
+  },
+  "feasible": true,
+  "fp_meta": {
+   "F_FP": 5522156.0,
+   "gap": null,
+   "status": 9,
+   "wall_s": 45.0286505
+  },
+  "gap": 0.0,
+  "l_experts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "link_cycles": {
+   "combine": 4080.0,
+   "dispatch": 2704.0
+  },
+  "nL": 7,
+  "nS": 25,
+  "nodes": 1.0,
+  "power": 4415.0,
+  "status": 2,
+  "ttff": 12.046984672546387,
+  "wall": 52.417548418045044
+ },
+ "poprank_greedy": {
+  "T": 1081564.278,
+  "area": 5640.0,
+  "bound": 1081564.278,
+  "endpoint_cycles": {
+   "combine": 35891.0,
+   "dispatch": 35891.0
+  },
+  "feasible": true,
+  "gap": 0.0,
+  "l_experts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "link_cycles": {
+   "combine": 4080.0,
+   "dispatch": 2704.0
+  },
+  "nL": 7,
+  "nS": 25,
+  "nodes": 1.0,
+  "power": 4415.0,
+  "status": 2,
+  "ttff": 13.553999900817871,
+  "wall": 15.517823934555054
+ },
+ "poprank_mint": {
+  "T": 1081564.2779999997,
+  "area": 5640.0,
+  "bound": 1020883.0,
+  "endpoint_cycles": {
+   "combine": 35891.0,
+   "dispatch": 35891.0
+  },
+  "feasible": true,
+  "gap": 0.05610510557191287,
+  "l_experts": [
+   0,
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "link_cycles": {
+   "combine": 4064.0,
+   "dispatch": 2400.0
+  },
+  "nL": 7,
+  "nS": 25,
+  "nodes": 1.0,
+  "power": 4415.0,
+  "status": 9,
+  "ttff": 12.546328067779541,
+  "wall": 46.6568078994751
+ },
+ "table3_analytic_T": {
+  "blind1": 1134504.1829999995,
+  "blind2": 1135712.1829999995,
+  "blind3": 1135712.1829999995,
+  "floorplet": 1073868.278,
+  "popchip": 1073244.278,
+  "tap": 1081980.278
+ },
+ "time_limit": 45.0
+}

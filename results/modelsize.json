@@ -1,0 +1,50 @@
+{
+ "e008_m06": {
+  "model_build_s": 0.8338356018066406,
+  "num_bin_vars": 1437,
+  "num_constrs": 3441,
+  "num_genconstrs": 0,
+  "num_vars": 3784,
+  "wall": 1.0960206985473633
+ },
+ "e016_m08": {
+  "model_build_s": 3.7347917556762695,
+  "num_bin_vars": 4029,
+  "num_constrs": 10081,
+  "num_genconstrs": 0,
+  "num_vars": 12664,
+  "wall": 4.2576189041137695
+ },
+ "e032_m12": {
+  "model_build_s": 31.036636114120483,
+  "num_bin_vars": 15789,
+  "num_constrs": 38305,
+  "num_genconstrs": 0,
+  "num_vars": 55008,
+  "wall": 31.64461398124695
+ },
+ "e064_m12": {
+  "model_build_s": 89.26290345191956,
+  "num_bin_vars": 29069,
+  "num_constrs": 85381,
+  "num_genconstrs": 0,
+  "num_vars": 114226,
+  "wall": 90.27430129051208
+ },
+ "e064_m16": {
+  "model_build_s": 132.9400119781494,
+  "num_bin_vars": 52045,
+  "num_constrs": 124437,
+  "num_genconstrs": 0,
+  "num_vars": 192498,
+  "wall": 134.31052231788635
+ },
+ "e128_m16": {
+  "model_build_s": 331.42374753952026,
+  "num_bin_vars": 99597,
+  "num_constrs": 263773,
+  "num_genconstrs": 0,
+  "num_vars": 392150,
+  "wall": 334.0485496520996
+ }
+}

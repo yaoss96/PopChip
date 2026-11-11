@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "dst": "t_gate",
+      "src": "t_attn",
+      "vol": 2097152
+    },
+    {
+      "dst": "t_dispatch",
+      "src": "t_gate",
+      "vol": 2048
+    },
+    {
+      "dst": "e(0)",
+      "src": "t_dispatch",
+      "vol": 1706413
+    },
+    {
+      "dst": "t_combine",
+      "src": "e(0)",
+      "vol": 1706413
+    },
+    {
+      "dst": "e(1)",
+      "src": "t_dispatch",
+      "vol": 1050420
+    },
+    {
+      "dst": "t_combine",
+      "src": "e(1)",
+      "vol": 1050420
+    },
+    {
+      "dst": "e(2)",
+      "src": "t_dispatch",
+      "vol": 790859
+    },
+    {
+      "dst": "t_combine",
+      "src": "e(2)",
+      "vol": 790859
+    },
+    {
+      "dst": "e(3)",
+      "src": "t_dispatch",
+      "vol": 646609
+    },
+    {
+      "dst": "t_combine",
+      "src": "e(3)",
+      "vol": 646609
+    },
+    {
+      "dst": "t_norm",
+      "src": "t_combine",
+      "vol": 2097152
+    }
+  ],
+  "expert_tasks": [
+    "e(0)",
+    "e(1)",
+    "e(2)",
+    "e(3)"
+  ],
+  "interconnect": {
+    "beta": 16.0,
+    "eps_h": 1.17e-12,
+    "eps_v": 1e-13,
+    "t0": 500.0,
+    "tau_h": 1.0,
+    "tau_v": 0.2
+  },
+  "library": {
+    "CPU": {
+      "area": 90.0,
+      "h": 1,
+      "mem": 4096.0,
+      "p_peak": 65.0,
+      "p_static": 15.0,
+      "simlet": "sniper-8core",
+      "w": 1
+    },
+    "GPU-L": {
+      "area": 400.0,
+      "h": 2,
+      "mem": 8192.0,
+      "p_peak": 300.0,
+      "p_static": 40.0,
+      "simlet": "gpgpu-sim-80sm",
+      "w": 2
+    },
+    "GPU-S": {
+      "area": 110.0,
+      "h": 1,
+      "mem": 2048.0,
+      "p_peak": 90.0,
+      "p_static": 12.0,
+      "simlet": "gpgpu-sim-20sm",
+      "w": 1
+    }
+  },
+  "meta": {
+    "batch": 256,
+    "bytes_elem": 2,
+    "config": "scaling-e4",
+    "d_ff": 14336,
+    "d_model": 4096,
+    "expert_pi": [
+      0.4068407166257138,
+      0.2504398376974949,
+      0.18855564214665207,
+      0.1541638035301392
+    ],
+    "experts": 4,
+    "group_pi": [
+      0.4068407166257138,
+      0.2504398376974949,
+      0.18855564214665207,
+      0.1541638035301392
+    ],
+    "groups": 4,
+    "note": "cycles/energy are ANALYTIC PLACEHOLDERS; replace via profiling harness (GPGPU-Sim/Sniper), Section 5.",
+    "skew": 0.7,
+    "topk": 2
+  },
+  "tasks": {
+    "e(0)": {
+      "allowed": [
+        "GPU-L",
+        "GPU-S"
+      ],
+      "class": "expert",
+      "cyc": {
+        "GPU-L": 22016831.414616916,
+        "GPU-S": 78282067.25197126
+      },
+      "eta": {
+        "GPU-L": 1.345473030893256e-06,
+        "GPU-S": 1.7124202211368713e-06
+      },
+      "mem_mb": 224.0
+    },
+    "e(1)": {
+      "allowed": [
+        "GPU-L",
+        "GPU-S"
+      ],
+      "class": "expert",
+      "cyc": {
+        "GPU-L": 13552949.497831235,
+        "GPU-S": 48188264.88117772
+      },
+      "eta": {
+        "GPU-L": 8.282358026452421e-07,
+        "GPU-S": 1.0541182942757627e-06
+      },
+      "mem_mb": 224.0
+    },
+    "e(2)": {
+      "allowed": [
+        "GPU-L",
+        "GPU-S"
+      ],
+      "class": "expert",
+      "cyc": {
+        "GPU-L": 10203987.987851487,
+        "GPU-S": 36280846.17902751
+      },
+      "eta": {
+        "GPU-L": 6.235770437020353e-07,
+        "GPU-S": 7.936435101662268e-07
+      },
+      "mem_mb": 224.0
+    },
+    "e(3)": {
+      "allowed": [
+        "GPU-L",
+        "GPU-S"
+      ],
+      "class": "expert",
+      "cyc": {
+        "GPU-L": 8342819.029300356,
+        "GPU-S": 29663356.54862349
+      },
+      "eta": {
+        "GPU-L": 5.098389406794662e-07,
+        "GPU-S": 6.488859245011388e-07
+      },
+      "mem_mb": 224.0
+    },
+    "t_attn": {
+      "allowed": [
+        "GPU-L",
+        "GPU-S"
+      ],
+      "class": "attn",
+      "cyc": {
+        "GPU-L": 15461882.2656,
+        "GPU-S": 54975581.388799995
+      },
+      "eta": {
+        "GPU-L": 9.448928051199999e-07,
+        "GPU-S": 1.2025908428799998e-06
+      },
+      "mem_mb": 0.0
+    },
+    "t_combine": {
+      "allowed": [
+        "GPU-L",
+        "GPU-S"
+      ],
+      "class": "combine",
+      "cyc": {
+        "GPU-L": 2319282.33984,
+        "GPU-S": 8246337.208319999
+      },
+      "eta": {
+        "GPU-L": 1.4173392076799997e-07,
+        "GPU-S": 1.80388626432e-07
+      },
+      "mem_mb": 0.0
+    },
+    "t_dispatch": {
+      "allowed": [
+        "GPU-L",
+        "GPU-S"
+      ],
+      "class": "dispatch",
+      "cyc": {
+        "GPU-L": 2319282.33984,
+        "GPU-S": 8246337.208319999
+      },
+      "eta": {
+        "GPU-L": 1.4173392076799997e-07,
+        "GPU-S": 1.80388626432e-07
+      },
+      "mem_mb": 0.0
+    },
+    "t_gate": {
+      "allowed": [
+        "CPU",
+        "GPU-S"
+      ],
+      "class": "gate",
+      "cyc": {
+        "CPU": 768.0,
+        "GPU-S": 2457.6
+      },
+      "eta": {
+        "CPU": 9.728e-11,
+        "GPU-S": 2.7648e-10
+      },
+      "mem_mb": 0.0
+    },
+    "t_norm": {
+      "allowed": [
+        "CPU",
+        "GPU-S"
+      ],
+      "class": "norm",
+      "cyc": {
+        "CPU": 768.0,
+        "GPU-S": 2457.6
+      },
+      "eta": {
+        "CPU": 9.728e-11,
+        "GPU-S": 2.7648e-10
+      },
+      "mem_mb": 0.0
+    }
+  }
+}

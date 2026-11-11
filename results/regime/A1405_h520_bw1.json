@@ -1,0 +1,87 @@
+{
+ "a_max": 1405.0,
+ "bw": 1.0,
+ "cap": "A1405",
+ "enum": {
+  "0": {
+   "T": 124845.9999500575,
+   "area": 1300.0,
+   "bound": 113240.99999999933,
+   "endpoint_cycles": {
+    "combine": 9028.0,
+    "dispatch": 9028.0
+   },
+   "feasible": true,
+   "gap": 0.09295451960575875,
+   "l_experts": [],
+   "link_cycles": {
+    "combine": 1375.138461538069,
+    "dispatch": 1296.0
+   },
+   "nL": 0,
+   "nS": 11,
+   "nodes": 601.0,
+   "power": 1055.0,
+   "status": 9,
+   "ttff": 1.430145263671875,
+   "wall": 45.14799952507019
+  },
+  "1": {
+   "T": 114916.99998850506,
+   "area": 1370.0,
+   "bound": 80633.34458075749,
+   "endpoint_cycles": {
+    "combine": 9032.0,
+    "dispatch": 9032.0
+   },
+   "feasible": true,
+   "gap": 0.29833406207242535,
+   "l_experts": [
+    0
+   ],
+   "link_cycles": {
+    "combine": 2833.599992229085,
+    "dispatch": 6284.123076920427
+   },
+   "nL": 1,
+   "nS": 8,
+   "nodes": 79.0,
+   "power": 1085.0,
+   "status": 9,
+   "ttff": 0.8671417236328125,
+   "wall": 45.12441802024841
+  }
+ },
+ "enum_best_T": 114916.99998850506,
+ "enum_best_nL": 1,
+ "greedy_T": 114916.99998850506,
+ "greedy_bound": 80633.34458075749,
+ "hop": 520.0,
+ "joint": {
+  "T": 113884.9999999854,
+  "area": 1260.0,
+  "bound": 79054.81451230327,
+  "endpoint_cycles": {
+   "combine": 9033.0,
+   "dispatch": 9033.0
+  },
+  "feasible": true,
+  "gap": 0.3058364621125398,
+  "l_experts": [
+   0
+  ],
+  "link_cycles": {
+   "combine": 6648.662108259944,
+   "dispatch": 4618.153846151645
+  },
+  "nL": 1,
+  "nS": 7,
+  "nodes": 77.0,
+  "power": 995.0,
+  "status": 9,
+  "ttff": 0.9948675632476807,
+  "wall": 45.10550332069397
+ },
+ "max_nL": 1,
+ "p_max": 2500.0
+}

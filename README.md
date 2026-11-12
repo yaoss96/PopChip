@@ -1,7 +1,9 @@
 # PopChip
 
 Code and data for **PopChip: Popularity-Aware Chiplet Architecture Co-Design for
-Mixture-of-Experts Inference**.
+Mixture-of-Experts Inference** by Shangshang Yao (Information Engineering
+University, Zhengzhou, China), Tong Zhao, and Zuoning Chen (Jiangnan Institute of
+Computing Technology, Wuxi, China). Contact: yaoshangshang96@outlook.com.
 
 PopChip is a mixed-integer linear program (MILP) whose only objective is the
 makespan `T` of an MoE layer's dispatch–compute–combine protocol. One solve

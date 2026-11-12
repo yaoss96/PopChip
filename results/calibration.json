@@ -238,6 +238,13 @@
   "ratio": 1.0012153718933086
  },
  {
+  "analytic": 2078109.232,
+  "case": "e064_m12",
+  "measured": 2080559,
+  "method": "poprank-greedy",
+  "ratio": 1.0011788446739358
+ },
+ {
   "analytic": 2100141.232,
   "case": "e064_m12",
   "measured": 2102613,
@@ -280,6 +287,13 @@
   "ratio": 1.0012186994294645
  },
  {
+  "analytic": 2081437.232,
+  "case": "e064_m16",
+  "measured": 2083891,
+  "method": "poprank-greedy",
+  "ratio": 1.0011788815738836
+ },
+ {
   "analytic": 2145277.232,
   "case": "e064_m16",
   "measured": 2147805,
@@ -320,6 +334,13 @@
   "measured": 3124247,
   "method": "popchip",
   "ratio": 1.0008356255913513
+ },
+ {
+  "analytic": 3113664.094,
+  "case": "e128_m16",
+  "measured": 3115743,
+  "method": "poprank-greedy",
+  "ratio": 1.0006676718930618
  },
  {
   "analytic": 3139480.094,
